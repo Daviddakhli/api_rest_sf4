@@ -1,0 +1,11 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: "Test Technique Backend"
+            description: "une API type REST qui permerait à une application mobile ou à un site web full frontend d’arriver à afficher un mini site e-commerce."
+            version: 1.0.0
+    routes:
+        path_patterns:
+            - ^/api(?!/doc$)
+    models:
+        use_jms: true

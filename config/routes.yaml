@@ -1,0 +1,20 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+api:
+    prefix: /api
+    resource: '../src/Controller'
+    type:     annotation
+    
+category:
+    type: rest
+    resource: App\Controller\CategoryController
+    
+product:
+    type: rest
+    resource: App\Controller\ProductController
+
+app.swagger_ui:
+    path: /api/doc
+    methods: GET
+    defaults: { _controller: nelmio_api_doc.controller.swagger_ui }

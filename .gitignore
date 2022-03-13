@@ -1,0 +1,15 @@
+
+###> symfony/framework-bundle ###
+/.env
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> netbeans projects ###
+/nbproject/
+###> netbeans projects ###
+
+###> cache file created by php-cs-fixer ###
+.php_cs.cache
+###> cache file created by php-cs-fixer ###
