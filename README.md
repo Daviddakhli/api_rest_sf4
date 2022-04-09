@@ -5,7 +5,7 @@ The purpose of this project is to provide a standard REST JSON-API that would al
 > This project uses [Swagger](https://swagger.io/) for the API documentation.
 
 # Installation 
-* clone the project : `https://github.com/Daviddakhli/api_rest_sf4.git`
+* clone the project : `git@github.com:kdakhli/api_rest_sf4.git`
 
 * inside the project folder run : `composer install`
 
